@@ -1,5 +1,8 @@
 language: java
 jdk:
   - oraclejdk8
-  - oraclejdk7
-  - openjdk7
+# Nashorn is only supported in 1.8
+#  - oraclejdk7
+#  - openjdk7
+after_failure:
+  - cat target/*.log
