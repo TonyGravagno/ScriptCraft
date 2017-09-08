@@ -5,4 +5,4 @@ jdk:
 #  - oraclejdk7
 #  - openjdk7
 after_failure:
-  - cat target/*.log
+  - cat /home/travis/build/TonyGravagno/ScriptCraft/target/*.log
