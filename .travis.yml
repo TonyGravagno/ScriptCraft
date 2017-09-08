@@ -4,7 +4,7 @@ jdk:
 # Nashorn is only supported in 1.8
 #  - oraclejdk7
 #  - openjdk7
-before_install:
+before_script:
   - cd $TRAVIS_BUILD_DIR/lib
   - wget https://www.dropbox.com/s/6vsztd0u87bm7sd/Spigot.jar?dl=0
 after_success:
