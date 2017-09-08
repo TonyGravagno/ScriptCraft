@@ -14,7 +14,6 @@ addons:
   apt:
     packages:
       - oracle-java8-installer
-install: ant deps
 
 before_script:
   - cd $TRAVIS_BUILD_DIR/lib
