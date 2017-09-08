@@ -9,6 +9,6 @@ before_script:
   - wget https://www.dropbox.com/s/6vsztd0u87bm7sd/Spigot.jar
   - cd $TRAVIS_BUILD_DIR
 after_success:
-  - echo Nothing to display from files: $TRAVIS_BUILD_DIR/target/*.log
+  - echo "Nothing to display from files: $TRAVIS_BUILD_DIR/target/*.log"
 after_failure:
   - cat $TRAVIS_BUILD_DIR/target/*.log
